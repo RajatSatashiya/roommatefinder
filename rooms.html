@@ -5,8 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Find Rooms</title>
     <link rel="Stylesheet" href="rooms.css">
+
+    <!-- ? GOOGLE ANALYTICS -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QRJ5NB4KZE"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-QRJ5NB4KZE');
+    </script>
 </head>
 <body>
+    <!-- ? PIWIK ANALYTICS -->
     <script type="text/javascript">
         (function (window, document, dataLayerName, id) {
             window[dataLayerName] = window[dataLayerName] || [], window[dataLayerName].push({ start: (new Date).getTime(), event: "stg.start" }); var scripts = document.getElementsByTagName('script')[0], tags = document.createElement('script');
@@ -162,5 +173,46 @@
             </div>
         </div>
     </div>
+
+    <!-- TODO: footer -->
+    <footer>
+        <div class="footerUp">
+            <div>
+                <div class="footHead">Quick Links</div>
+                <div class="list">Rent a room</div>
+                <div class="list">Find roommates</div>
+            </div>
+            <div>
+                <div class="footHead">About</div>
+                <div class="list">Our Story</div>
+                <div class="list">Team</div>
+            </div>
+            <div>
+                <div class="footHead">Help</div>
+                <div class="list">Frequently Asked Questions</div>
+                <div class="list">Blog</div>
+                <div class="list">Contact Us</div>
+            </div>
+            <div>
+                <div class="footHead">Legal</div>
+                <div class="list">Terms and Conditions</div>
+                <div class="list">Privacy Policy</div>
+            </div>
+            <div>
+                <div class="footHead">Contact</div>
+                <div class="list">roommatefinder@gmail.com</div>
+            </div>
+        </div>
+    
+        <hr class="hrline">
+        <div class="footerDown">
+            <div class="copy">Copyright © 2020-2021 Engineer’s cradle. All rights reserved</div>
+            <div class="socials">
+                <i class="fab fa-facebook fb"></i>
+                <i class="fab fa-instagram insta"></i>
+                <i class="fab fa-linkedin ld"></i>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
