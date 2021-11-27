@@ -132,6 +132,70 @@ main div {
   font-weight: 300;
   margin: 0.4rem 0;
 }
+.whypanel {
+  margin: 6rem 0;
+  margin-bottom: 0;
+  padding: 7rem 4rem;
+  background: #689775;
+  background: #eff0b3;
+  overflow: hidden;
+}
+.team {
+  margin-top: 0;
+  padding-bottom: 10rem;
+  background: #689775;
+}
+.members {
+  display: flex;
+  text-align: center;
+  font-family: Capriola;
+  font-weight: bold;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.profilepic {
+  width: 200px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  margin-bottom: 0.7rem;
+}
+.pic1 {
+  background: url("profile pics/rajat.jpg");
+  background-size: cover;
+}
+.pic2 {
+  background: url("profile pics/rachit.jpeg");
+  background-size: cover;
+}
+.pic3 {
+  background: url("profile pics/ujjwal.jpeg");
+  background-size: cover;
+}
+.topic {
+  font-family: Paytone One;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.description {
+  font-family: Capriola;
+  font-size: 1.5rem;
+  position: relative;
+  display: flex;
+  /* background: pink; */
+  justify-content: space-between;
+}
+.description ul {
+  list-style-type: square;
+}
+.description ul li {
+  margin: 0.8rem 0;
+}
+.houseimg {
+  position: absolute;
+  right: -100px;
+  bottom: -220px;
+  width: 56%;
+}
 footer {
   color: white;
   background: #1a202c;
@@ -208,5 +272,17 @@ footer {
   }
   .list {
     font-size: 0.8rem;
+  }
+  .members {
+    justify-content: center;
+  }
+  .member {
+    margin: 1rem;
+  }
+  .topic {
+    text-align: center;
+  }
+  .profilepic {
+    width: 100px;
   }
 }
