@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Rooms</title>
+    <link rel="Stylesheet" href="rooms.css">
+</head>
+<body>
+    <script type="text/javascript">
+        (function (window, document, dataLayerName, id) {
+            window[dataLayerName] = window[dataLayerName] || [], window[dataLayerName].push({ start: (new Date).getTime(), event: "stg.start" }); var scripts = document.getElementsByTagName('script')[0], tags = document.createElement('script');
+            function stgCreateCookie(a, b, c) { var d = ""; if (c) { var e = new Date; e.setTime(e.getTime() + 24 * c * 60 * 60 * 1e3), d = "; expires=" + e.toUTCString() } document.cookie = a + "=" + b + d + "; path=/" }
+            var isStgDebug = (window.location.href.match("stg_debug") || document.cookie.match("stg_debug")) && !window.location.href.match("stg_disable_debug"); stgCreateCookie("stg_debug", isStgDebug ? 1 : "", isStgDebug ? 14 : -1);
+            var qP = []; dataLayerName !== "dataLayer" && qP.push("data_layer_name=" + dataLayerName), isStgDebug && qP.push("stg_debug"); var qPString = qP.length > 0 ? ("?" + qP.join("&")) : "";
+            tags.async = !0, tags.src = "https://roommatefinder.containers.piwik.pro/" + id + ".js" + qPString, scripts.parentNode.insertBefore(tags, scripts);
+            !function (a, n, i) { a[n] = a[n] || {}; for (var c = 0; c < i.length; c++)!function (i) { a[n][i] = a[n][i] || {}, a[n][i].api = a[n][i].api || function () { var a = [].slice.call(arguments, 0); "string" == typeof a[0] && window[dataLayerName].push({ event: n + "." + i + ":" + a[0], parameters: [].slice.call(arguments, 1) }) } }(i[c]) }(window, "ppms", ["tm", "cm"]);
+        })(window, document, 'dataLayer', '753c44ac-38fb-4cfb-bd97-006d2ff70871');
+    </script><noscript><iframe
+            src="https://roommatefinder.containers.piwik.pro/753c44ac-38fb-4cfb-bd97-006d2ff70871/noscript.html" height="0"
+            width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <!-- TODO: NAVBAR -->
+    <nav>
+        <div class="navHead">
+            <img src="house pics/house2.png" width="40px">
+        </div>
+        <ul>
+            <li>
+                <a href="index.html">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="rooms.html">
+                    Find Rooms
+                </a>
+            </li>
+            <li>
+                <a href="/roommate">
+                    Become a host
+                </a>
+            </li>
+        </ul>
+        <button>Login</button>
+    </nav>
+
+    <!-- todo: Header section -->
+    <main>
+        <div class="landingView">
+            Find Rooms
+        </div>
+        <div>
+            Browse through the ads below to look for cozy accomodations
+            <br>
+            Our current region of interest is Mumbai, so you will only find rooms situated in Mumbai.
+        </div>
+    </main>
+
+    <!-- todo: rooms ads -->
+    <div class="tabs">
+        <div class="tab">
+            <div class="tag">2bhk bungalow</div>
+            <div class="tag2">₹12000 per month</div>
+            <img src="https://a0.muscache.com/im/pictures/3be122cb-c2cc-47fa-8065-33ae12cc215c.jpg?im_w=1200">
+            <div class="content">
+                <h2 class="name">Parth Seth</h2>
+                <div class="desc">
+                    A 2bhk bungalow which currently accomodates 5 bachelors. Price mentioned below is non-negotiable, only call
+                    if
+                    acceptable.
+                </div>
+            </div>
+        </div>
+        
+        <div class="tab">
+            <div class="tag">1bhk apartment</div>
+            <div class="tag2">₹8000 per month</div>
+
+            <img src="https://a0.muscache.com/im/pictures/a38bda6c-d7aa-4a51-b5fb-915d1b66f561.jpg?im_w=1440">
+            <div class="content">
+                <h2 class="name">Malini Vaidya</h2>
+                <div class="desc">
+                    House for rent. Only female applicants will be given the house. A 1bhk apartment located in posh area of andheri.
+                </div>
+            </div>
+        </div>
+        <div class="tab">
+            <div class="tag">1bhk apartment</div>
+            <div class="tag2">₹3000 per month</div>
+
+            <img src="https://a0.muscache.com/im/pictures/miso/Hosting-29409371/original/912b8b56-7d6f-42e5-830b-62e4bce45615.jpeg?im_w=1440">
+            <div class="content">
+                <h2 class="name">Ansh Manne</h2>
+                <div class="desc">
+                    Renting entire house located in the suburbs on South Bombay. As in the picture, house has swimming pool
+                    in the backyard and lots of plants and trees in the frontyard. (Only for families or couples && not for
+                    bachelors)
+                </div>
+            </div>
+        </div>
+        <div class="tab">
+            <div class="tag">6bhk bungalow</div>
+            <div class="tag2">₹25000 per month</div>
+
+            <img src="https://a0.muscache.com/im/pictures/miso/Hosting-46256621/original/76b0a3d6-3241-42cd-98c5-cf0f71bfb4d3.jpeg?im_w=1200">
+            <div class="content">
+                <h2 class="name">Lalita Gera</h2>
+                <div class="desc">
+                    Massive house located in the suburbs of South Bombay. Can rent the entire place to 10 people (with 7 spots empty right now). House has 2 bathrooms with 3 balconies and large parking space.
+                </div>
+            </div>
+        </div>
+        <div class="tab">
+            <div class="tag">1bhk bungalow</div>
+            <div class="tag2">₹30000 per month</div>
+
+            <img src="https://a0.muscache.com/im/pictures/11477012-f1f1-410c-b081-9aebd0147310.jpg?im_w=1200">
+            <div class="content">
+                <h2 class="name">Shreya Narayanan</h2>
+                <div class="desc">
+                    Beautiful 1bhk bungalow for rent. Please connect over the number shown below.
+                </div>
+            </div>
+        </div>
+        <div class="tab">
+            <div class="tag">2bhk apartment</div>
+            <div class="tag2">₹16000 per month</div>
+
+            <img src="https://a0.muscache.com/im/pictures/0c762e49-5326-4647-950f-dc838a3088a0.jpg?im_w=1200">
+            <div class="content">
+                <h2 class="name">Jagan Chowdhury</h2>
+                <div class="desc">
+                    Looking for a roommate for my 2bhk apartment. 2 people already live in the house and I am renting an extra
+                    room available.
+                </div>
+            </div>
+        </div>
+        
+        <div class="tab">
+            <div class="tag">2bhk apartment</div>
+            <div class="tag2">₹8000 per month</div>
+
+            <img src="https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/sites/1/2016/08/180816_Apt1-AirBnb-1.jpg">
+            <div class="content">
+                <h2 class="name">Arundhati Jhaveri</h2>
+                <div class="desc">
+                    Currently resided by a college student, there is a vacancy for 2 more people. Only female college students shall apply. House is sea facing with a balcony, situated in Juhu area of Mumbai.
+                </div>
+            </div>
+        </div>
+        <div class="tab">
+            <div class="tag">3bhk bungalow</div>
+            <div class="tag2">₹4500 per month</div>
+
+            <img src="bg pics/bg-4.jpg">
+            <div class="content">
+                <h2 class="name">Ketan Singh</h2>
+                <div class="desc">
+                    I have a vacant room big enough for two. The bungalow as you can see is in the pic has a swimming pool. There are 3 residents living in the bungalow. House is however located far from the city with no transport services, thus the rent is tagged above is flexible and can be negotiated over call.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
