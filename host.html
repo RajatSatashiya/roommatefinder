@@ -21,6 +21,7 @@
     </script>
 </head>
 <body>
+    <!-- ? PIWIK ANALYTICS -->
     <script type="text/javascript">
         (function (window, document, dataLayerName, id) {
             window[dataLayerName] = window[dataLayerName] || [], window[dataLayerName].push({ start: (new Date).getTime(), event: "stg.start" }); var scripts = document.getElementsByTagName('script')[0], tags = document.createElement('script');
@@ -33,6 +34,7 @@
     </script><noscript><iframe
             src="https://roommatefinder.containers.piwik.pro/753c44ac-38fb-4cfb-bd97-006d2ff70871/noscript.html" height="0"
             width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
     <!-- TODO: NAVBAR -->
     <nav>
         <div class="navHead">
@@ -72,22 +74,34 @@
 
     <!-- TODO: hosting form -->
     <div class="host">
-        <form>
-            <label for="name">Name</label><br>
-            <input type="text" name="name"><br>
+        <form class="hostingform" autocomplete="off">
+            <div>
+                <label for="name">Name</label><br>
+                <input type="text" name="name"><br>
+            </div>
 
-            <label for="Location">Location</label><br>
-            <input type="text" name="Location"><br>
+            <div>
+                <label for="Location">Location</label><br>
+                <input type="text" name="Location"><br>
+            </div>
 
-            <label for="people">Rent for</label><br>
-            <input type="number" name="people"><br>
+            <div>
+                <label for="people">Rent for (no. of people)</label><br>
+                <input type="number" name="people" placeholder="e.g. 3 people"><br>
+            </div>
 
-            <label for="apttype">Apartment Type</label><br>
-            <sel
+            <div>
+                <label for="apttype">Apartment Type</label><br>
+                <input type="text" name="apttype" placeholder="e.g. 1bhk bungalow, 2bhk apartment..."><br>
+            </div>
 
-            <label for="rent">Estimated rent per month</label><br>
-            <input type="number" name="rent"><br>
+            <div>
+                <label for="rent">Estimated rent per month </label><br>
+                <input type="number" name="rent" placeholder="e.g. ₹6000 per month"><br>
+            </div>
+
         </form>
+        <button type="submit" class="submitbtn">Host now</button>
     </div>
 
     <!-- TODO: footer section -->
@@ -97,6 +111,11 @@
                 <div class="footHead">Quick Links</div>
                 <div class="list">Rent a room</div>
                 <div class="list">Find roommates</div>
+                <div class="list">
+                    <a href="how.html">
+                        How it works
+                    </a>
+                </div>
             </div>
             <div>
                 <div class="footHead">About</div>

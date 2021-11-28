@@ -76,8 +76,11 @@ nav button:hover {
   background: white;
   transform: scale(1.1);
 }
+.details {
+  font-size: 1.3rem;
+}
 main {
-  text-align: center;
+  margin-left: 2rem;
 }
 main div {
   font-family: Capriola;
@@ -88,128 +91,57 @@ main div {
   font-weight: 500;
   font-size: 40px;
   text-transform: uppercase;
-  text-align: center;
   color: #a33327;
   margin: 3rem 0 1rem 0;
+  text-align: center;
 }
-.tabs {
+.workspanel {
+  font-family: Paytone one;
   display: flex;
-  margin: 4rem 1rem;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  margin-top: 5rem;
 }
-.tab {
-  width: 27%;
-  border-radius: 5px;
-  overflow: hidden;
+.worksbox {
   background: #ecb453;
-  position: relative;
-  transition: 0.6s ease;
+  width: 28rem;
+  aspect-ratio: 1;
+  padding: 2.6rem;
+  margin: auto;
+  margin-bottom: 3.5rem;
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px rgb(145, 145, 145);
 }
-.tab img {
-  width: 100%;
-  aspect-ratio: 1.5;
-  /* height: 16.25rem; */
-}
-.tab:hover {
+.worksbox:hover {
   cursor: pointer;
+  box-shadow: 3px 3px 10px black;
   transform: scale(1.1);
 }
-.tag {
-  position: absolute;
-  font-family: Montserrat;
-  font-weight: 700;
-  font-size: 12px;
-  top: 10px;
-  left: -5px;
-  padding: 5px 0;
-  padding-left: 8px;
-  background: #917164;
-  border-radius: 5px;
-  color: white;
-  width: 30%;
-}
-.content {
-  font-family: Paytone One;
-  margin: 1.3rem;
-}
-.desc {
-  font-family: Capriola;
-  font-size: 1rem;
-  font-weight: 300;
-  margin: 0.4rem 0;
-}
-.whypanel {
-  padding: 7rem 4rem;
-  background: #eff0b3;
-  overflow: hidden;
-}
-.team {
-  margin-top: 0;
-  padding-bottom: 10rem;
-  background: #689775;
-}
-.members {
-  display: flex;
+.imgcontainer {
+  width: 50%;
   text-align: center;
-  font-family: Capriola;
-  font-weight: bold;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }
-.profilepic {
-  width: 200px;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  margin-bottom: 0.7rem;
+.howimg {
+  cursor: pointer;
+  margin: auto;
 }
-.pic1 {
-  background: url("profile pics/rajat.jpg");
-  background-size: cover;
-}
-.pic2 {
-  background: url("profile pics/rachit.jpeg");
-  background-size: cover;
-}
-.pic3 {
-  background: url("profile pics/ujjwal.jpeg");
-  background-size: cover;
-}
-.pic4 {
-  background: url("profile pics/kush.jpeg");
-  background-size: cover;
-}
-.pic5 {
-  background: url("profile pics/ayushman.jpeg");
-  background-size: cover;
-}
-.topic {
-  font-family: Paytone One;
+.howTitle {
   font-size: 2rem;
-  margin-bottom: 2rem;
+  margin: 0.6rem 0;
 }
-.description {
+.howdesc {
   font-family: Capriola;
   font-size: 1.5rem;
-  position: relative;
-  display: flex;
-  justify-content: space-between;
+  font-weight: 400;
 }
-.description ul {
-  list-style-type: square;
-}
-.description ul li {
-  margin: 0.8rem 0;
-}
-.houseimg {
-  position: absolute;
-  right: -100px;
-  bottom: -220px;
-  width: 56%;
-}
+
 footer {
   color: white;
   background: #1a202c;
   padding: 8rem 10rem;
+  margin-top: 5rem;
 }
 .footerUp {
   display: flex;
@@ -254,16 +186,9 @@ footer {
 .insta:hover {
   color: tomato;
 }
+
 /****** Responsive - Mobile  ******/
 @media screen and (max-width: 650px) {
-  .tabs {
-    flex-direction: column;
-  }
-  .tab {
-    width: 80%;
-    margin: auto;
-    margin-bottom: 2rem;
-  }
   footer {
     padding: 1.5rem;
   }
@@ -294,5 +219,8 @@ footer {
   }
   .profilepic {
     width: 100px;
+  }
+  .tag2 {
+    top: 60px;
   }
 }

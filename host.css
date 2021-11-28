@@ -131,3 +131,32 @@ footer {
 .insta:hover {
   color: tomato;
 }
+.hostingform {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  font-family: Paytone one;
+  font-size: 1.4rem;
+}
+input {
+  font-family: Capriola;
+  width: 40rem;
+  height: 35px;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  padding-left: 0.6rem;
+  opacity: 0.8;
+}
+.submitbtn {
+  font-family: Paytone one;
+  font-size: 1.3rem;
+  border: none;
+  background: #689775;
+  color: black;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+  margin-left: 2rem;
+  cursor: pointer;
+}
