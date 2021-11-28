@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roommate Finder</title>
-    <link rel="Stylesheet" href="style.css">
+    <title>Become a Host</title>
+    <link rel="Stylesheet" href="host.css">
+    <link rel="Stylesheet" href="rooms.css">
+
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
@@ -17,11 +19,8 @@
 
         gtag('config', 'G-QRJ5NB4KZE');
     </script>
-
-    
 </head>
 <body>
-    <!-- ? PIWIK ANALYTICS -->
     <script type="text/javascript">
         (function (window, document, dataLayerName, id) {
             window[dataLayerName] = window[dataLayerName] || [], window[dataLayerName].push({ start: (new Date).getTime(), event: "stg.start" }); var scripts = document.getElementsByTagName('script')[0], tags = document.createElement('script');
@@ -59,100 +58,39 @@
         <button>Login</button>
     </nav>
 
-    <!-- todo: Header section -->
+    <!-- TODO: Header section -->
     <main>
         <div class="landingView">
-            Roommate Finder
+            Become a Host
         </div>
-        <div>
-            struggling to find rooms in a new city?? Well, Worry no more!!!
+        <div class="details">
+            Rent a room or an entire house. You can host anything, anywhere
+            <br>
+            Our current region of interest is Mumbai, so you can only post an ad, if you have a property situated in Mumbai.
         </div>
     </main>
 
-    <!-- TODO: cards -->
-    <div class="tabs">
-        <div class="tab">
-            <div class="tag">Need roommate</div>
-            <img src="bg pics/bg-2.jpg">
-            <div class="content">
-                <h2 class="name">Aaron Mathew</h2>
-                <div class="desc">
-                    Renting a room in my 2bhk apartment situated in Borivali, Mumbai. Looking for someone who has no problem
-                    with weekly parties and non-veg food.
-                </div>
-            </div>
-        </div>
-        <div class="tab">
-            <div class="tag">Need room</div>
-            <img src="bg pics/bg-3.jpg">
-            <div class="content">
-                <h2 class="name">Rohit Bhardawaj</h2>
-                <div class="desc">
-                    A professional guitarist from New Delhi. Looking for a room in Mumbai.
-                </div>
-            </div>
-        </div>
-        <div class="tab">
-            <div class="tag">Need Roommate</div>
-            <img src="bg pics/bg-4.jpg">
-            <div class="content">
-                <h2 class="name">Ketan Singh</h2>
-                <div class="desc">
-                    Renting entire house located in the suburbs on South Bombay. As in the picture, house has swimming pool in the backyard and lots of plants and trees in the frontyard. (Only for families or couples && not for bachelors)
-                </div>
-            </div>
-        </div>
+    <!-- TODO: hosting form -->
+    <div class="host">
+        <form>
+            <label for="name">Name</label><br>
+            <input type="text" name="name"><br>
+
+            <label for="Location">Location</label><br>
+            <input type="text" name="Location"><br>
+
+            <label for="people">Rent for</label><br>
+            <input type="number" name="people"><br>
+
+            <label for="apttype">Apartment Type</label><br>
+            <sel
+
+            <label for="rent">Estimated rent per month</label><br>
+            <input type="number" name="rent"><br>
+        </form>
     </div>
 
-    <!-- TODO: other sections -->
-    <!-- ? Why Roommate finder -->
-    <div class="whypanel">
-        <h2 class="topic">Why Roommate Finder??</h2>
-        <div class="description">
-            <ul>
-                <li>Easy to use web interface</li>
-                <li>You can post ads of your rooms/house for rent</li>
-                <li>Avoid the hassle of finding roommates the traditional way</li>
-                <li>Filter houses with price range, location, area </li>
-                <li>Find rooms for rent in a new city with ease.</li>
-            </ul>
-            <img src="house pics/house6.png" class="houseimg">
-        </div>
-    </div>
-
-    <!-- ? the team -->
-    <div class="whypanel team">
-        <h2 class="topic">Meet the Team</h2>
-        <div class="members">
-            <div class="member">
-                <div class="profilepic pic1"></div>
-                <div class="name">Rajat Satashiya</div>
-                (Frontend Developer)
-            </div>
-            <div class="member">
-                <div class="profilepic pic2"></div>
-                <div class="name">Rachit Gupta</div>
-                (Marketing Head)
-            </div>
-            <div class="member">
-                <div class="profilepic pic3"></div>
-                <div class="name">Ujjwal Gupta</div>
-                (Backend Developer)
-            </div>
-            <div class="member">
-                <div class="profilepic pic4"></div>
-                <div class="name">Kush Dang</div>
-                (Social Media Exe.)
-            </div>
-            <div class="member">
-                <div class="profilepic pic5"></div>
-                <div class="name">Ayushman Chahar</div>
-                (UI/UX Designer)
-            </div>
-        </div>
-    </div>
-
-    <!-- TODO: footer -->
+    <!-- TODO: footer section -->
     <footer>
         <div class="footerUp">
             <div>
@@ -181,7 +119,7 @@
                 <div class="list">roommatefinder@gmail.com</div>
             </div>
         </div>
-
+    
         <hr class="hrline">
         <div class="footerDown">
             <div class="copy">Copyright © 2020-2021 Roommate Finder. All rights reserved</div>
@@ -192,8 +130,5 @@
             </div>
         </div>
     </footer>
-
-   
-    
 </body>
 </html>

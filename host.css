@@ -79,77 +79,11 @@ nav button:hover {
 .details {
   font-size: 1.3rem;
 }
-main {
-  margin-left: 2rem;
-}
-main div {
-  font-family: Capriola;
-  color: #6b574e;
-}
-.landingView {
-  font-family: Paytone One;
-  font-weight: 500;
-  font-size: 40px;
-  text-transform: uppercase;
-  color: #a33327;
-  margin: 3rem 0 1rem 0;
-}
-.tabs {
-  display: flex;
-  margin: 4rem 1rem;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-.tab {
-  width: 27%;
-  border-radius: 5px;
-  overflow: hidden;
-  background: #ecb453;
-  position: relative;
-  margin: 1rem;
-  transition: 0.6s ease;
-}
-.tab img {
-  width: 100%;
-  aspect-ratio: 1.5;
-  /* height: 16.25rem; */
-}
-.tab:hover {
-  cursor: pointer;
-  transform: scale(1.1);
-}
-.tag,
-.tag2 {
-  position: absolute;
-  font-family: capriola;
-  /* font-weight: 700; */
-  font-size: 0.8rem;
-  top: 10px;
-  left: -5px;
-  padding: 5px 0;
-  padding-left: 8px;
-  background: #917164;
-  background: #689775;
-  border-radius: 5px;
-  color: white;
-  color: black;
-  width: 30%;
-}
-.tag2 {
-  top: 40px;
-  background: #eff0b3;
-}
-.content {
-  font-family: Paytone One;
-  margin: 1.3rem;
-}
-.desc {
-  font-family: Capriola;
-  font-size: 1rem;
-  font-weight: 300;
-  margin: 0.4rem 0;
-}
 footer {
+  position: relative;
+  width: 100%;
+  bottom: 0px;
+  margin-top: 5rem;
   color: white;
   background: #1a202c;
   padding: 8rem 10rem;
@@ -196,50 +130,4 @@ footer {
 }
 .insta:hover {
   color: tomato;
-}
-
-/****** Responsive - Mobile  ******/
-@media screen and (max-width: 650px) {
-  .tabs {
-    flex-direction: column;
-  }
-  .tab {
-    width: 80%;
-    margin: auto;
-    margin-bottom: 2rem;
-  }
-  footer {
-    padding: 1.5rem;
-  }
-  .footerUp div {
-    margin: 0.5rem;
-  }
-  .footerDown {
-    font-size: 0.9rem;
-  }
-  .socials i {
-    font-size: 1.4rem;
-    margin: 4px;
-  }
-  .footHead {
-    font-size: 0.8rem;
-  }
-  .list {
-    font-size: 0.8rem;
-  }
-  .members {
-    justify-content: center;
-  }
-  .member {
-    margin: 1rem;
-  }
-  .topic {
-    text-align: center;
-  }
-  .profilepic {
-    width: 100px;
-  }
-  .tag2 {
-    top: 60px;
-  }
 }
